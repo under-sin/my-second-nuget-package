@@ -18,7 +18,7 @@ jobs:
           dotnet-version: "7.0.x"
 
       - name: Add github Packages Source
-        run: dotnet nuget add source https://nuget.pkg.github.com/under-sin/index.json -n github -u under-sin -p ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text
+        run: dotnet nuget add source https://nuget.pkg.github.com/under-sin/index.json -n github -u under-sin -p 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 --store-password-in-clear-text
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
