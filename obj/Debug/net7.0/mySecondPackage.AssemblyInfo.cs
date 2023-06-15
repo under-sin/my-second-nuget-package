@@ -10,13 +10,14 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("mySecondPackage")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("under.sin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("mySecondPackage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mySecondPackage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/under-sin/my-second-nuget-package")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

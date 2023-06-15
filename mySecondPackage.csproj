@@ -4,6 +4,13 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    
+    <PackageId>my-second-nuget-package</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Anderson</Authors>
+    <Company>under.sin</Company>
+    <PackageDescription>Secungo pacote exemplo para github package</PackageDescription>
+    <RepositoryUrl>https://github.com/under-sin/my-second-nuget-package</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

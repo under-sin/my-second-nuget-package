@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "c:\\dev\\mySecondPackage\\mySecondPackage.csproj",
-        "projectName": "mySecondPackage",
+        "projectName": "my-second-nuget-package",
         "projectPath": "c:\\dev\\mySecondPackage\\mySecondPackage.csproj",
         "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
         "outputPath": "c:\\dev\\mySecondPackage\\obj\\",
