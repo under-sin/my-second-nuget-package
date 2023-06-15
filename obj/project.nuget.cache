@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nkXMmElAEuzS+j1Goi9jSFMJNL/tSEu9pgZYeLsSN2vGClkxWeJ2LzpcaaJn1cE5UwFYujOG7aaeltnZqxDiNw==",
+  "success": true,
+  "projectFilePath": "c:\\dev\\mySecondPackage\\mySecondPackage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ander\\.nuget\\packages\\undercustomprivatepackage-37aa9ef8-e6f0-443d-b340-d1b2278a67ec\\1.0.0\\undercustomprivatepackage-37aa9ef8-e6f0-443d-b340-d1b2278a67ec.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

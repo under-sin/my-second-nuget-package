@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "UnderCustomPrivatePackage-37aa9ef8-e6f0-443d-b340-d1b2278a67ec/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/MyCustomPrivatePackage.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/MyCustomPrivatePackage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnderCustomPrivatePackage-37aa9ef8-e6f0-443d-b340-d1b2278a67ec/1.0.0": {
+      "sha512": "fJgGAYLQZuFnMh8Z18qV4arICPrwGxPkcFe9oWWcfBVOYqXETiC7MTkSlDSmUTF0mUOLP5hNrRJWN/SlGary4A==",
+      "type": "package",
+      "path": "undercustomprivatepackage-37aa9ef8-e6f0-443d-b340-d1b2278a67ec/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net7.0/MyCustomPrivatePackage.dll",
+        "undercustomprivatepackage-37aa9ef8-e6f0-443d-b340-d1b2278a67ec.1.0.0.nupkg.sha512",
+        "undercustomprivatepackage-37aa9ef8-e6f0-443d-b340-d1b2278a67ec.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "UnderCustomPrivatePackage-37aa9ef8-e6f0-443d-b340-d1b2278a67ec >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ander\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\dev\\mySecondPackage\\mySecondPackage.csproj",
+      "projectName": "mySecondPackage",
+      "projectPath": "C:\\dev\\mySecondPackage\\mySecondPackage.csproj",
+      "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\mySecondPackage\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Desenv\\Nuget\\packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/under-sin/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "UnderCustomPrivatePackage-37aa9ef8-e6f0-443d-b340-d1b2278a67ec": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23225.8\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

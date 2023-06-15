@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="UnderCustomPrivatePackage-37aa9ef8-e6f0-443d-b340-d1b2278a67ec" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
